@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+      <form>
+        <div class="row">
+          <div class="col-25">
+            <label for="userName">Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="userName" name="userName" placeholder="Your name...">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="userSurname">Surname</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="userSurname" name="userSurname" placeholder="Your surname...">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="userEmail">Email</label>
+          </div>
+          <div class="col-75">
+            <input type="email" id="userEmail" name="userEmail" placeholder="Your email...">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="userBirthDate">Birth Date</label>
+          </div>
+          <div class="col-75">
+            <input type="date" id="userBirthDate" name="userBirthDate" placeholder="Your Birth Date...">
+          </div>
+        </div>
+        <div class="row">
+          <input type="button" value="Save" id="submitBtn">
+        </div>
+      </form>
+    </div>
+      <table id="userTable">
+
+      </table>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
